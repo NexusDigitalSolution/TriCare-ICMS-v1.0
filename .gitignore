@@ -1,0 +1,10 @@
+# Standard Visual Studio & Python ignore
+bin/
+obj/
+.vs/
+.vscode/
+__pycache__/
+*.user
+*.suo
+*.log
+.DS_Store
