@@ -11,10 +11,30 @@
 ## 2. Customer Risks (Tri-Care's Perspective)
 | ID | Risk Description | Impact | Mitigation Strategy |
 | :--- | :--- | :--- | :--- |
-| **CR-01** | **Lack of Clinical Context:** Vendor treats safety-critical alerts (allergies) as standard text fields, leading to malpractice liability. | High | Account Manager to enforce clinical safety review reviews with Chief Medical Officer. |
-| **CR-02** | **"Bait and Switch" Resourcing:** Vendor pitches with senior architects but assigns low-skilled juniors to code. | High | Contract stipulates named Key Personnel (Lead Analyst, Tech Lead) cannot be swapped without approval. |
-| **CR-03** | **Operational Disruption:** New system is slower than manual logbooks, causing queues. | Med | Strict Performance Requirement: <2s load time. Parallel run planned for Week 1 of Go-Live. |
-| **CR-04** | **Hidden Costs:** Vendor charges excessive Change Request fees for minor tweaks. | Med | "Farmer" Account Manager approach; fixed-price agreement for minor UI adjustments. |
+### CR-01: Lack of Clinical Context (Safety Risk)
+*   **Description:** Client fears the vendor treats the system as "just another CRUD app" and misses critical medical safety contexts (e.g., allergy alerts), potentially leading to malpractice liability.
+*   **Impact:** High
+*   **Mitigation:** Account Manager to enforce clinical safety reviews with Chief Medical Officer.
+
+### CR-02: "Bait and Switch" Resourcing
+*   **Description:** Client fears the proposal was pitched by senior architects, but actual coding will be done by low-skilled juniors/students.
+*   **Impact:** High
+*   **Mitigation:** Contract stipulates named Key Personnel (Lead Analyst, Tech Lead) cannot be swapped without approval.
+
+### CR-03: Operational Disruption
+*   **Description:** Client fears the new system is slower than manual logbooks, causing queues.
+*   **Impact:** Medium
+*   **Mitigation:** Strict Performance Requirement (<2s load time). Parallel run planned for Week 1 of Go-Live.
+
+### CR-04: Hidden Costs ("Nickel-and-Diming")
+*   **Description:** Client fears vendor will charge excessive "Change Request" fees for minor tweaks.
+*   **Impact:** Medium
+*   **Mitigation:** "Farmer" Account Manager approach; fixed-price agreement for minor UI adjustments.
+
+### CR-05: Vendor Abandonment ("Ghosting")
+*   **Description:** Client fears Nexus will deliver the software and then fail to provide frequent updates or bug fixes, leaving the clinic with unsupported software.
+*   **Impact:** High
+*   **Mitigation:** Contract mandates "Weekly Status Reports" (Friday 5 PM) and a 90-day Defect Liability Period post-launch.
 
 ## 3. Vendor Risks (Nexus Digital Solutions Perspective)
 | ID | Risk Name | L | S | Priority | Mitigation Strategy |
